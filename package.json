@@ -1,19 +1,21 @@
 {
 	"name": "@sureshpradhana/christmas-popup",
-	"version": "0.0.5",
+	"version": "0.0.6",
 	"private": false,
 	"license": "MIT",
-	"files": ["dist"],
+	"files": [
+		"dist"
+	],
 	"main": "./dist/ChristmasPopup.svelte",
-    "module": "./dist/ChristmasPopup.svelte",
-    "exports":{
-        ".":{
-            "import":"./dist/ChristmasPopup.svelte",
-            "require":"./dist/ChristmasPopup.svelte",
-            "types":"./dist/index.d.ts",
-            "svelte":"./dist/index.js"
-        }
-    },
+	"module": "./dist/ChristmasPopup.svelte",
+	"exports": {
+		".": {
+			"import": "./dist/ChristmasPopup.svelte",
+			"require": "./dist/ChristmasPopup.svelte",
+			"types": "./dist/index.d.ts",
+			"svelte": "./dist/index.js"
+		}
+	},
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build",
@@ -44,8 +46,7 @@
 	"dependencies": {
 		"@sveltejs/package": "^2.2.4"
 	},
-    "peerDependencies": {
-        "svelte": "^4.2.7"
-    }
-   
+	"peerDependencies": {
+		"svelte": "^4.2.7"
+	}
 }
