@@ -1,6 +1,6 @@
 <script lang="ts">
     import { onMount } from "svelte";
-    // import greetingImage from '/assets/greetings.svg';
+    import greetingImage from './assets/greetings.svg';
     let show:Boolean = false;
 
     onMount(() => {
@@ -13,13 +13,13 @@
 <div>
     {#if show}
         <div class="popup">
-            <!-- <img
-                src="/assets/greetings.svg"
+            <img
+                src={greetingImage}
                 alt="greeting"
                 width="200px"
                 height="100px"
                 class="greeting-image"
-            /> -->
+            />
             <h1>Merry Christmas!</h1>
             <p>
                 Wishing you a very Merry Christmas and a wonderful New Year. May
