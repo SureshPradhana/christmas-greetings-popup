@@ -1,5 +1,5 @@
 <script>import { onMount } from "svelte";
-import greetingImage from "../assets/greetings.svg";
+import greetingImage from "./assets/greetings.svg";
 let show = false;
 onMount(() => {
   setTimeout(() => {
